@@ -4,13 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formulário Sarah</title>
+  <title>Formulário Prof</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-
   <div class="container mt-5">
     <div class="row justify-content-center">
       <div class="col-6">
@@ -18,60 +17,64 @@
           <div class="row mb-3">
             <div class="col">
               <label for="form-label">Nome</label>
-              <input type="text" class="form-control" placeholder="Digite seu nome">
+              <input type="text" class="form-control">
             </div>
-
             <div class="col">
               <label for="form-label">Apelido</label>
-              <input type="text" class="form-control" placeholder="Digite seu apelido">
+              <input type="text" class="form-control">
             </div>
           </div>
 
           <div class="row mb-3">
             <div class="col">
-              <label for="">Sexo</label>
               <div class="form-check">
-                <input type="radio" name="opcao" class="form-check-input">Feminino
+                <input type="radio" name="sexo" id="sex1" class="form-check-input">
+                <label for="sex1" class="form-check-label">Feminino</label>
               </div>
+
               <div class="form-check">
-                <input type="radio" name="opcao" class="form-check-input">Masculino
+                <input type="radio" name="sexo" id="sex2" class="form-check-input">
+                <label for="sex2" class="form-check-label">Masculino</label>
               </div>
+
               <div class="form-check">
-                <input type="radio" name="opcao" class="form-check-input">Outro
+                <input type="radio" name="sexo" id="sex3" class="form-check-input">
+                <label for="sex3" class="form-check-label">Outro</label>
               </div>
             </div>
           </div>
 
           <div class="row mb-3">
             <div class="col">
-              <label for="">Email</label>
-              <input type="email" class="form-control" placeholder="seuemail@provedor.com">
+              <label for="form-label">Email</label>
+              <input type="email" class="form-control">
             </div>
-
             <div class="col">
-              <label for="">Telefone</label>
-              <input type="tel" class="form-control" placeholder="(xx) xxxxx-xxxx">
+              <label for="form-label">Telefone</label>
+              <input type="tel" class="form-control">
             </div>
           </div>
 
           <div class="row mb-3">
             <div class="col">
-              <label for="form-control-label">Observações</label>
-              <textarea class="form-control"></textarea>
+              <label for="" class="form-check-label">Observações</label>
+              <textarea name="" id="" rows="3" class="form-control"></textarea>
             </div>
           </div>
 
-          <div class="row mt-4">
-            <div class="col">
-              <input type="submit" value=" Salvar " class="btn btn-primary">
-              <input type="submit" value="Cancelar" class="btn btn-warning">
+          <div class="row">
+            
+            <div class="col text-end">
+              <input type="submit" value="Cancelar" class="btn btn-secondary">
+              <input type="submit" value=" Salvar " class="btn btn-primary">  
             </div>
           </div>
+
+
         </form>
       </div>
     </div>
   </div>
-
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
